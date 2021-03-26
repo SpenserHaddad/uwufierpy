@@ -8,7 +8,7 @@ fn uwufy(s: String) -> PyResult<String> {
 }
 
 #[pymodule]
-fn uwu_package(_py: Python, m: &PyModule) -> PyResult<()> {
+fn uwupy(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(uwufy, m)?)?;
     Ok(())
 }

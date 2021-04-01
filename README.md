@@ -18,7 +18,7 @@ Requires rust 1.51.0 or nightly.
 
 ```bash
 rustup override set nightly
-python install -r requirements.txt
+pip install -r requirements.txt
 python setup.py bdist_wheel
 pip install .
 ```

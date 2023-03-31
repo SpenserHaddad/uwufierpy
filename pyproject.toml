@@ -11,7 +11,7 @@ description = "Python wrapper around the uwufier Rust package."
 dependencies = []
 license = {file = "LICENSE"}
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.7"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Rust",

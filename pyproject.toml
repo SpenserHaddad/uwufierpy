@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-rust"]
+
+[project]
+name = "uwufierpy"
+version = "1.0.0"
+authors = [
+    {name = "Spenser Haddad", email = "spenser.haddad@gmail.com"},
+]
+description = "Python wrapper around the uwufier Rust package."
+dependencies = []
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Rust",
+    "License :: OSI Approved :: MIT License"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "flake8", "black"]
+build = ["setuptools_rust"]
+
+[project.urls]
+homepage = "https://github.com/SpenserHaddad/uwufierpy"
+repository = "https://github.com/SpenserHaddad/uwufierpy"
+
+[tool.setuptools]
+packages = ["uwufier"]
+zip-safe = false

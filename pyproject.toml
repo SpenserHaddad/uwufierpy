@@ -27,5 +27,7 @@ homepage = "https://github.com/SpenserHaddad/uwufierpy"
 repository = "https://github.com/SpenserHaddad/uwufierpy"
 
 [tool.setuptools]
-packages = ["uwufier"]
 zip-safe = false
+
+[tool.setuptools.packages.find]
+where = ["src"]

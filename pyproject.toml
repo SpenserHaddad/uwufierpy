@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest", "flake8", "black"]
+dev = ["pytest", "ruff", "black"]
 build = ["setuptools_rust"]
 
 [project.urls]
